@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1306326E1DE4D88000031115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306326D1DE4D88000031115 /* AppDelegate.swift */; };
+		130632701DE4D88000031115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306326F1DE4D88000031115 /* ViewController.swift */; };
+		130632731DE4D88000031115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130632711DE4D88000031115 /* Main.storyboard */; };
+		130632751DE4D88000031115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130632741DE4D88000031115 /* Assets.xcassets */; };
+		130632781DE4D88000031115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130632761DE4D88000031115 /* LaunchScreen.storyboard */; };
+		130632831DE4DD8100031115 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 130632821DE4DD8100031115 /* still time.ttf */; };
+		130632881DE4DF3B00031115 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130632871DE4DF3B00031115 /* VideoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1306326A1DE4D88000031115 /* Party Rock Manison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Party Rock Manison.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1306326D1DE4D88000031115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1306326F1DE4D88000031115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		130632721DE4D88000031115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		130632741DE4D88000031115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		130632771DE4D88000031115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		130632791DE4D88000031115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130632821DE4DD8100031115 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "still time.ttf"; path = "../still time.ttf"; sourceTree = "<group>"; };
+		130632871DE4DF3B00031115 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		130632671DE4D88000031115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130632611DE4D88000031115 = {
+			isa = PBXGroup;
+			children = (
+				1306326C1DE4D88000031115 /* Party Rock Manison */,
+				1306326B1DE4D88000031115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1306326B1DE4D88000031115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1306326A1DE4D88000031115 /* Party Rock Manison.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1306326C1DE4D88000031115 /* Party Rock Manison */ = {
+			isa = PBXGroup;
+			children = (
+				130632841DE4DD9200031115 /* Files */,
+				130632801DE4D8BE00031115 /* Model */,
+				130632811DE4D8C900031115 /* View */,
+				1306327F1DE4D8B700031115 /* Controller */,
+				1306326D1DE4D88000031115 /* AppDelegate.swift */,
+				1306326F1DE4D88000031115 /* ViewController.swift */,
+				130632711DE4D88000031115 /* Main.storyboard */,
+				130632741DE4D88000031115 /* Assets.xcassets */,
+				130632761DE4D88000031115 /* LaunchScreen.storyboard */,
+				130632791DE4D88000031115 /* Info.plist */,
+			);
+			path = "Party Rock Manison";
+			sourceTree = "<group>";
+		};
+		1306327F1DE4D8B700031115 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				130632871DE4DF3B00031115 /* VideoViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		130632801DE4D8BE00031115 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		130632811DE4D8C900031115 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		130632841DE4DD9200031115 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				130632821DE4DD8100031115 /* still time.ttf */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		130632691DE4D88000031115 /* Party Rock Manison */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1306327C1DE4D88000031115 /* Build configuration list for PBXNativeTarget "Party Rock Manison" */;
+			buildPhases = (
+				130632661DE4D88000031115 /* Sources */,
+				130632671DE4D88000031115 /* Frameworks */,
+				130632681DE4D88000031115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Party Rock Manison";
+			productName = "Party Rock Manison";
+			productReference = 1306326A1DE4D88000031115 /* Party Rock Manison.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		130632621DE4D88000031115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = self.edu;
+				TargetAttributes = {
+					130632691DE4D88000031115 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = E59D2Z958U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 130632651DE4D88000031115 /* Build configuration list for PBXProject "Party Rock Manison" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 130632611DE4D88000031115;
+			productRefGroup = 1306326B1DE4D88000031115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				130632691DE4D88000031115 /* Party Rock Manison */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		130632681DE4D88000031115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130632781DE4D88000031115 /* LaunchScreen.storyboard in Resources */,
+				130632831DE4DD8100031115 /* still time.ttf in Resources */,
+				130632751DE4D88000031115 /* Assets.xcassets in Resources */,
+				130632731DE4D88000031115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		130632661DE4D88000031115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130632701DE4D88000031115 /* ViewController.swift in Sources */,
+				1306326E1DE4D88000031115 /* AppDelegate.swift in Sources */,
+				130632881DE4DF3B00031115 /* VideoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		130632711DE4D88000031115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				130632721DE4D88000031115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		130632761DE4D88000031115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				130632771DE4D88000031115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1306327A1DE4D88000031115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1306327B1DE4D88000031115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1306327D1DE4D88000031115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E59D2Z958U;
+				INFOPLIST_FILE = "Party Rock Manison/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Party-Rock-Manison";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1306327E1DE4D88000031115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E59D2Z958U;
+				INFOPLIST_FILE = "Party Rock Manison/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Party-Rock-Manison";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		130632651DE4D88000031115 /* Build configuration list for PBXProject "Party Rock Manison" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1306327A1DE4D88000031115 /* Debug */,
+				1306327B1DE4D88000031115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1306327C1DE4D88000031115 /* Build configuration list for PBXNativeTarget "Party Rock Manison" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1306327D1DE4D88000031115 /* Debug */,
+				1306327E1DE4D88000031115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 130632621DE4D88000031115 /* Project object */;
+}
