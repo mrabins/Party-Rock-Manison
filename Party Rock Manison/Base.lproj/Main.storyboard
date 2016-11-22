@@ -85,7 +85,7 @@
                                 <rect key="frame" x="0.0" y="248" width="375" height="419"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="68" id="zxY-xf-90P">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" rowHeight="68" id="zxY-xf-90P" customClass="PartyTableViewCell" customModule="Party_Rock_Manison" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="68"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zxY-xf-90P" id="MYv-aS-Oje">
@@ -113,6 +113,10 @@
                                                 <constraint firstItem="1fM-hP-chs" firstAttribute="leading" secondItem="cRN-Po-ZWN" secondAttribute="trailing" id="h4H-ot-vhd"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="videoPreviewImage" destination="cRN-Po-ZWN" id="M0f-N6-hjc"/>
+                                            <outlet property="videoTitle" destination="1fM-hP-chs" id="WEB-WD-xHD"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
