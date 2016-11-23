@@ -13,6 +13,7 @@ class VideoViewController: UIViewController {
     @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var titleLabel: UILabel!
     
+    
     private var _partyRock: PartyRock!
     
     var partyRock: PartyRock {
@@ -39,15 +40,9 @@ class VideoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func backButtonPressed(sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+        
     }
-    */
 
 }

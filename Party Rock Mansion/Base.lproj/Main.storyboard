@@ -18,7 +18,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Party_Rock_Manison" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Party_Rock_Mansion" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -87,7 +87,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" rowHeight="94" id="zxY-xf-90P" customClass="PartyTableViewCell" customModule="Party_Rock_Manison" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" rowHeight="94" id="zxY-xf-90P" customClass="PartyTableViewCell" customModule="Party_Rock_Mansion" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="94"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zxY-xf-90P" id="MYv-aS-Oje">
@@ -148,7 +148,7 @@
         <!--Video View Controller-->
         <scene sceneID="K1a-Ze-ZlO">
             <objects>
-                <viewController id="1eX-EI-7HS" customClass="VideoViewController" customModule="Party_Rock_Manison" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1eX-EI-7HS" customClass="VideoViewController" customModule="Party_Rock_Mansion" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KSA-dY-iQu"/>
                         <viewControllerLayoutGuide type="bottom" id="4QR-wW-qqg"/>
@@ -173,14 +173,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gTX-Qf-0jc">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <navigationBar userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T6x-P2-3Ax">
+                                <rect key="frame" x="0.0" y="-7" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem id="9CM-Gp-Wlq">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="w61-4o-KXg">
+                                    <navigationItem title="Title" id="TNs-eo-Qzm">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Nia-AT-JP6">
                                             <connections>
-                                                <action selector="backButtonPressedWithSender:" destination="1eX-EI-7HS" id="Hyc-F6-peF"/>
+                                                <action selector="backToTableViewWithSender:" destination="1eX-EI-7HS" id="TQw-UN-Sw9"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -188,6 +188,9 @@
                             </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.8806100153086478" green="0.8806100153086478" blue="0.8806100153086478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" notEnabled="YES"/>
+                        </accessibility>
                         <constraints>
                             <constraint firstItem="A7T-yA-UXk" firstAttribute="top" secondItem="XC7-mh-PcX" secondAttribute="top" id="1PS-aw-BRy"/>
                             <constraint firstAttribute="trailingMargin" secondItem="cX6-WH-ew2" secondAttribute="trailing" constant="22" id="9Tw-FS-Rue"/>
@@ -198,13 +201,14 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="navBar" destination="T6x-P2-3Ax" id="Y2k-84-TF3"/>
                         <outlet property="titleLabel" destination="cX6-WH-ew2" id="oS1-6S-4D4"/>
                         <outlet property="webView" destination="A7T-yA-UXk" id="I9K-vw-YZq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5PU-n9-Q82" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="824.79999999999995" y="143.47826086956522"/>
+            <point key="canvasLocation" x="825" y="152"/>
         </scene>
     </scenes>
     <resources>
