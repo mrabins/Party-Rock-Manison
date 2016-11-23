@@ -1,6 +1,6 @@
 //
 //  VideoViewController.swift
-//  Party Rock Manison
+//  Party Rock Mansion
 //
 //  Created by Mark Rabins on 11/22/16.
 //  Copyright © 2016 self.edu. All rights reserved.

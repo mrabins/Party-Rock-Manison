@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "130632691DE4D88000031115"
-               BuildableName = "Party Rock Manison.app"
-               BlueprintName = "Party Rock Manison"
-               ReferencedContainer = "container:Party Rock Manison.xcodeproj">
+               BuildableName = "Party Rock Mansion.app"
+               BlueprintName = "Party Rock Mansion"
+               ReferencedContainer = "container:Party Rock Mansion.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "130632691DE4D88000031115"
-            BuildableName = "Party Rock Manison.app"
-            BlueprintName = "Party Rock Manison"
-            ReferencedContainer = "container:Party Rock Manison.xcodeproj">
+            BuildableName = "Party Rock Mansion.app"
+            BlueprintName = "Party Rock Mansion"
+            ReferencedContainer = "container:Party Rock Mansion.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "130632691DE4D88000031115"
-            BuildableName = "Party Rock Manison.app"
-            BlueprintName = "Party Rock Manison"
-            ReferencedContainer = "container:Party Rock Manison.xcodeproj">
+            BuildableName = "Party Rock Mansion.app"
+            BlueprintName = "Party Rock Mansion"
+            ReferencedContainer = "container:Party Rock Mansion.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "130632691DE4D88000031115"
-            BuildableName = "Party Rock Manison.app"
-            BlueprintName = "Party Rock Manison"
-            ReferencedContainer = "container:Party Rock Manison.xcodeproj">
+            BuildableName = "Party Rock Mansion.app"
+            BlueprintName = "Party Rock Mansion"
+            ReferencedContainer = "container:Party Rock Mansion.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

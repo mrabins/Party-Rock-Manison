@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1306326A1DE4D88000031115 /* Party Rock Manison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Party Rock Manison.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1306326A1DE4D88000031115 /* Party Rock Mansion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Party Rock Mansion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1306326D1DE4D88000031115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1306326F1DE4D88000031115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		130632721DE4D88000031115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		130632611DE4D88000031115 = {
 			isa = PBXGroup;
 			children = (
-				1306326C1DE4D88000031115 /* Party Rock Manison */,
+				1306326C1DE4D88000031115 /* Party Rock Mansion */,
 				1306326B1DE4D88000031115 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		1306326B1DE4D88000031115 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1306326A1DE4D88000031115 /* Party Rock Manison.app */,
+				1306326A1DE4D88000031115 /* Party Rock Mansion.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1306326C1DE4D88000031115 /* Party Rock Manison */ = {
+		1306326C1DE4D88000031115 /* Party Rock Mansion */ = {
 			isa = PBXGroup;
 			children = (
 				130632841DE4DD9200031115 /* Files */,
@@ -73,6 +73,7 @@
 				130632761DE4D88000031115 /* LaunchScreen.storyboard */,
 				130632791DE4D88000031115 /* Info.plist */,
 			);
+			name = "Party Rock Mansion";
 			path = "Party Rock Manison";
 			sourceTree = "<group>";
 		};
@@ -111,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		130632691DE4D88000031115 /* Party Rock Manison */ = {
+		130632691DE4D88000031115 /* Party Rock Mansion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1306327C1DE4D88000031115 /* Build configuration list for PBXNativeTarget "Party Rock Manison" */;
+			buildConfigurationList = 1306327C1DE4D88000031115 /* Build configuration list for PBXNativeTarget "Party Rock Mansion" */;
 			buildPhases = (
 				130632661DE4D88000031115 /* Sources */,
 				130632671DE4D88000031115 /* Frameworks */,
@@ -123,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = "Party Rock Manison";
+			name = "Party Rock Mansion";
 			productName = "Party Rock Manison";
-			productReference = 1306326A1DE4D88000031115 /* Party Rock Manison.app */;
+			productReference = 1306326A1DE4D88000031115 /* Party Rock Mansion.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 130632651DE4D88000031115 /* Build configuration list for PBXProject "Party Rock Manison" */;
+			buildConfigurationList = 130632651DE4D88000031115 /* Build configuration list for PBXProject "Party Rock Mansion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -158,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				130632691DE4D88000031115 /* Party Rock Manison */,
+				130632691DE4D88000031115 /* Party Rock Mansion */,
 			);
 		};
 /* End PBXProject section */
@@ -310,7 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E59D2Z958U;
-				INFOPLIST_FILE = "Party Rock Manison/Info.plist";
+				INFOPLIST_FILE = "Party Rock Mansion/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Party-Rock-Manison";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -323,7 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E59D2Z958U;
-				INFOPLIST_FILE = "Party Rock Manison/Info.plist";
+				INFOPLIST_FILE = "Party Rock Mansion/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Party-Rock-Manison";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -334,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		130632651DE4D88000031115 /* Build configuration list for PBXProject "Party Rock Manison" */ = {
+		130632651DE4D88000031115 /* Build configuration list for PBXProject "Party Rock Mansion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1306327A1DE4D88000031115 /* Debug */,
@@ -343,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1306327C1DE4D88000031115 /* Build configuration list for PBXNativeTarget "Party Rock Manison" */ = {
+		1306327C1DE4D88000031115 /* Build configuration list for PBXNativeTarget "Party Rock Mansion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1306327D1DE4D88000031115 /* Debug */,
