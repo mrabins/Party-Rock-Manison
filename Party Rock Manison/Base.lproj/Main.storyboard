@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -74,25 +75,26 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.917839319036718" green="0.917839319036718" blue="0.917839319036718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.91288034539473684" green="0.91288034539473684" blue="0.91288034539473684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="EZd-w5-No4" firstAttribute="leading" secondItem="bYa-D8-EYI" secondAttribute="leading" constant="8" id="JC8-VD-ynO"/>
                                     <constraint firstAttribute="trailing" secondItem="EZd-w5-No4" secondAttribute="trailing" constant="8" id="QGW-9p-44P"/>
                                     <constraint firstItem="EZd-w5-No4" firstAttribute="top" secondItem="bYa-D8-EYI" secondAttribute="top" constant="3" id="gBJ-sf-gsg"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="68" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BTr-Ng-fgy">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="94" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BTr-Ng-fgy">
                                 <rect key="frame" x="0.0" y="248" width="375" height="419"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" rowHeight="68" id="zxY-xf-90P" customClass="PartyTableViewCell" customModule="Party_Rock_Manison" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="68"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" rowHeight="94" id="zxY-xf-90P" customClass="PartyTableViewCell" customModule="Party_Rock_Manison" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="94"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zxY-xf-90P" id="MYv-aS-Oje">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="93"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="partybanner" translatesAutoresizingMaskIntoConstraints="NO" id="cRN-Po-ZWN">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cRN-Po-ZWN">
                                                     <rect key="frame" x="8" y="3" width="60" height="60"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="60" id="q7K-IP-Bxb"/>
@@ -124,18 +126,18 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oal-xe-S8n" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1Ow-Pp-VRr"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BTr-Ng-fgy" secondAttribute="bottom" id="8FG-YH-sWU"/>
-                            <constraint firstAttribute="trailing" secondItem="BTr-Ng-fgy" secondAttribute="trailing" id="Qie-bg-h9m"/>
+                            <constraint firstItem="EZd-w5-No4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="5Bh-Gc-zNs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EZd-w5-No4" secondAttribute="trailing" constant="-8" id="DE2-6U-zy2"/>
                             <constraint firstItem="oal-xe-S8n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Teu-5O-rac"/>
                             <constraint firstItem="bYa-D8-EYI" firstAttribute="top" secondItem="oal-xe-S8n" secondAttribute="bottom" constant="8" id="U6U-co-mQM"/>
-                            <constraint firstItem="BTr-Ng-fgy" firstAttribute="top" secondItem="oal-xe-S8n" secondAttribute="bottom" id="fPz-xE-0yA"/>
                             <constraint firstAttribute="trailing" secondItem="bYa-D8-EYI" secondAttribute="trailing" id="iX4-Mc-8Wa"/>
+                            <constraint firstItem="bYa-D8-EYI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="lNe-Xw-rnw"/>
                             <constraint firstItem="bYa-D8-EYI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="p0F-TP-HDc"/>
-                            <constraint firstItem="BTr-Ng-fgy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rvv-mQ-BhA"/>
                             <constraint firstAttribute="trailing" secondItem="oal-xe-S8n" secondAttribute="trailing" id="xyf-kO-2CM"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="tableView" destination="BTr-Ng-fgy" id="dSm-aa-2wE"/>
                         <segue destination="1eX-EI-7HS" kind="showDetail" identifier="segueToVideo" id="sGQ-sf-EPK"/>
                     </connections>
                 </viewController>
