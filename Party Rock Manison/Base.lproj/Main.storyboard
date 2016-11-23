@@ -94,7 +94,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="93"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cRN-Po-ZWN">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="partybanner" translatesAutoresizingMaskIntoConstraints="NO" id="cRN-Po-ZWN">
                                                     <rect key="frame" x="8" y="3" width="60" height="60"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="60" id="q7K-IP-Bxb"/>
@@ -164,14 +164,30 @@
                                     <constraint firstAttribute="height" constant="250" id="4UD-9g-3IR"/>
                                 </constraints>
                             </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cX6-WH-ew2">
+                                <rect key="frame" x="38" y="300" width="299" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="ahV-hT-VzK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.8806100153086478" green="0.8806100153086478" blue="0.8806100153086478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="A7T-yA-UXk" firstAttribute="top" secondItem="XC7-mh-PcX" secondAttribute="top" id="1PS-aw-BRy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cX6-WH-ew2" secondAttribute="trailing" constant="22" id="9Tw-FS-Rue"/>
                             <constraint firstItem="A7T-yA-UXk" firstAttribute="leading" secondItem="XC7-mh-PcX" secondAttribute="leading" id="Hwc-kG-1d4"/>
                             <constraint firstAttribute="trailing" secondItem="A7T-yA-UXk" secondAttribute="trailing" id="Mtw-74-iEu"/>
+                            <constraint firstItem="cX6-WH-ew2" firstAttribute="leading" secondItem="XC7-mh-PcX" secondAttribute="leadingMargin" constant="22" id="nux-0g-xnN"/>
+                            <constraint firstItem="cX6-WH-ew2" firstAttribute="top" secondItem="A7T-yA-UXk" secondAttribute="bottom" constant="50" id="uyJ-4f-C95"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="cX6-WH-ew2" id="oS1-6S-4D4"/>
+                        <outlet property="webView" destination="A7T-yA-UXk" id="I9K-vw-YZq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5PU-n9-Q82" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
